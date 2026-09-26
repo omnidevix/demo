@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@fontsource/montserrat";
+
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+  --color-dora-blue: #0096e6;
+  --color-dora-yellow: #f8c928;
+  --color-dora-red: #e42939;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f0f8ff;
+  color: #333;
+}
